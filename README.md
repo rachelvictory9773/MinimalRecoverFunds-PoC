@@ -16,6 +16,9 @@ Setup::
 
 1.Clone the repository
 
+git clone https://github.com/rachelvictory9773/MinimalRecoverFunds-PoC.git
+
+cd MinimalRecoverFunds-PoC
 
 2.Install dependencies with Foundry:
   forge install forge-std
