@@ -41,10 +41,14 @@ Script ran successfully.
 
 This output shows that although tokens were minted to the resolver, the recoverFunds method failed to transfer tokens out because the non-standard token’s transfer function returned false
 
-// whole running this script poc code. it gets some errors like sender address and all ,so while starting anvil, u get some address ,so if u want without that sender error ,attach the address like
-forge script scripts/MinimalRecoverFunds.s.sol:MinimalRecoverFundsScript --broadcast --fork-url http://127.0.0.1:8545 --sender 0x18...  -vvvv
+// this can be shown in end of output 
+Error: You seem to be using Foundry's default sender. Be sure to set your own --sender.
 
-if u dont want  its fine ,leave it
+but its fine ,no problem, if u want add there sender with -sender 0x678....
+the sender address u got when u started Anvil, u get some address,take anyone and use
+actually its optional ...
+forge script scripts/MinimalRecoverFunds.s.sol:MinimalRecoverFundsScript --broadcast --fork-url http://127.0.0.1:8545 --sender 0x678...  -vvvv
+
 
 
 4 . (Optional) Run tests:
