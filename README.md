@@ -24,7 +24,9 @@ cd MinimalRecoverFunds-PoC
   forge install forge-std
 
 3.How to run:
+
   1.Start a local Ethereum node using Anvil:
+  
    anvil
 
   2.Run the PoC script
