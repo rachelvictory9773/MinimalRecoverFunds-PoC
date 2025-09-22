@@ -1,11 +1,11 @@
 [profile.default]
-src = 'src'
+src = 'test'
 out = 'out'
-libs = ['lib']
+libs = ['lib/forge-std']
 
 # The EVM version by hardfork name
 evm_version = 'shanghai'
-
+solc_version = "0.8.13"
 # Ankr RPC endpoints (https://www.ankr.com/rpc/)
 [rpc_endpoints]
 eth = "${ETH_RPC_URL}"
