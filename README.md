@@ -30,6 +30,7 @@ cd MinimalRecoverFunds-PoC
    anvil
 
   2.Run the PoC script
+  
    forge script scripts/MinimalRecoverFunds.s.sol:MinimalRecoverFundsScript --broadcast --fork-url http://127.0.0.1:8545 -vvvv
   
   Expected output:
@@ -54,6 +55,7 @@ forge script scripts/MinimalRecoverFunds.s.sol:MinimalRecoverFundsScript --broad
 
 
 4 . (Optional) Run tests:
+
 forge test --match-path  test/RecoverFundsPoC.t.sol -vv
 
 Expected output:
